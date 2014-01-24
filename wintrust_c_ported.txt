@@ -1,0 +1,75 @@
+Private Declare Function WinVerifyTrust Lib "wintrust.dll" (ByVal hwnd As Long, ByRef pgActionID As GUID, ByRef pWVTData As Any) As Long
+Private Declare Function CLSIDFromString Lib "ole32.dll" (ByVal lpszProgID As Long, pCLSID As GUID) As Long
+         
+Private Type GUID
+    Data1 As Long
+    Data2 As Integer
+    Data3 As Integer
+    Data4(7) As Byte
+End Type
+
+Private Type WINTRUST_FILE_INFO
+    cbStruct As Long
+    pcwszFilePath As String
+    hFile As Long
+    pgKnownSubject As GUID
+End Type
+
+Private Type WINTRUST_DATA
+    cbStruct As Long
+    pPolicyCallbackData As Long
+    pSIPClientData As Long
+    dwUIChoice As Long
+    fdwRevocationChecks As Long
+    dwUnionChoice As Long
+    dwStateAction As Long
+    hWVTStateData As Long
+    pwszURLReference As String
+    dwProvFlags As Long
+    dwUIContext As Long
+    pFile As WINTRUST_FILE_INFO
+End Type
+
+Private Const WTD_UI_NONE = 2
+Private Const WTD_REVOKE_NONE = 0
+Private Const WTD_CHOICE_FILE = 1
+Private Const WTD_SAFER_FLAG = &H100
+
+Private Const TRUST_E_PROVIDER_UNKNOWN = -2146762751
+Private Const TRUST_E_ACTION_UNKNOWN = -2146762750
+Private Const TRUST_E_SUBJECT_FORM_UNKNOWN = -2146762749
+Private Const TRUST_E_SUBJECT_NOT_TRUSTED = -2146762748
+
+Public Function VerifyFileSignature(sFile$) As Boolean
+    If Not bIsWinNT Then Exit Function
+    If Not FileExists(sFile) Then Exit Function
+
+    Dim uVerifyV2 As GUID, uWTfileinfo As WINTRUST_FILE_INFO
+    Dim uWTdata As WINTRUST_DATA, lRet&
+    With uWTfileinfo
+        .cbStruct = Len(uWTfileinfo)
+        .pcwszFilePath = sFile
+    End With
+    With uWTdata
+        .cbStruct = Len(uWTdata)
+        .dwUIChoice = WTD_UI_NONE
+        .fdwRevocationChecks = WTD_REVOKE_NONE
+'        .dwUnionChoice = WTD_CHOICE_FILE
+        .dwProvFlags = WTD_SAFER_FLAG
+        .pFile = uWTfileinfo
+    End With
+    If CLSIDFromString(StrPtr("{00AAC56B-CD44-11d0-8CC2-00C04FC295EE}"), uVerifyV2) = 0 Then
+        lRet = WinVerifyTrust(0, uVerifyV2, uWTdata)
+    End If
+    If lRet = 0 Then
+        VerifyFileSignature = True
+    Else
+        Select Case lRet
+            Case TRUST_E_ACTION_UNKNOWN: MsgBox "TRUST_E_ACTION_UNKNOWN"
+            Case TRUST_E_PROVIDER_UNKNOWN: MsgBox "TRUST_E_PROVIDER_UNKNOWN"
+            Case TRUST_E_SUBJECT_FORM_UNKNOWN: MsgBox "TRUST_E_SUBJECT_FORM_UNKNOWN"
+            Case TRUST_E_SUBJECT_NOT_TRUSTED: MsgBox "TRUST_E_SUBJECT_FORM_UNKNOWN"
+        End Select
+    End If
+End Function
+

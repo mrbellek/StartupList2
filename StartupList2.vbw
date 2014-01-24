@@ -1,0 +1,9 @@
+frmMain = 194, 65, 899, 651, , 7, 10, 562, 460, C
+modRegistry = 82, 26, 711, 618, 
+modMisc = 328, 69, 953, 666, 
+modFiles = 52, 14, 709, 604, C
+modProcess = 74, 20, 733, 610, C
+modIniFiles = 76, 12, 700, 608, C
+modTriage = 97, 7, 714, 627, C
+modWinsock = 80, 14, 711, 638, C
+modHelp = 36, 25, 794, 587, C

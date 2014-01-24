@@ -1,0 +1,123 @@
+Logfile of HijackThis v1.99.2 (BETA)
+Scan saved at 16:13:40, on 18-1-2007
+Platform: Windows XP SP2 (WinNT 5.01.2600)
+Logged on as MERIJN BELLEKOM to VALENTIJN (user is Administrator)
+MSIE: Internet Explorer v6.00 SP2 (6.00.2900.2180)
+Spybot S&D version: 1.4
+Ad-Aware version: not installed
+Boot mode: Normal
+
+Running processes:
+C:\WINDOWS\System32\smss.exe
+C:\WINDOWS\system32\winlogon.exe
+C:\WINDOWS\system32\services.exe
+C:\WINDOWS\system32\lsass.exe
+C:\WINDOWS\system32\svchost.exe
+C:\WINDOWS\System32\svchost.exe
+C:\Program Files\Intel\Wireless\Bin\EvtEng.exe
+C:\Program Files\Intel\Wireless\Bin\S24EvMon.exe
+C:\WINDOWS\system32\spoolsv.exe
+C:\WINDOWS\Explorer.EXE
+C:\WINDOWS\system32\hkcmd.exe
+C:\Program Files\Analog Devices\SoundMAX\SMax4PNP.exe
+C:\WINDOWS\AGRSMMSG.exe
+C:\Program Files\Apoint2K\Apoint.exe
+C:\Program Files\hpq\HP Wireless Assistant\HP Wireless Assistant.exe
+C:\Program Files\Hp\HP Software Update\HPWuSchd2.exe
+C:\Program Files\HPQ\Quick Launch Buttons\EabServr.exe
+C:\program files\Uptimer4\uptimer4.exe
+C:\Program Files\Intel\Wireless\bin\ZCfgSvc.exe
+C:\Program Files\Intel\Wireless\Bin\ifrmewrk.exe
+C:\Program Files\Java\jre1.5.0_10\bin\jusched.exe
+C:\Program Files\iTunes\iTunesHelper.exe
+C:\Program Files\Apoint2K\Apntex.exe
+C:\Program Files\Cisco Systems\VPN Client\cvpnd.exe
+C:\Program Files\Common Files\LightScribe\LSSrvc.exe
+C:\Program Files\Common Files\Microsoft Shared\VS7Debug\mdm.exe
+C:\Program Files\Kerio\Personal Firewall\persfw.exe
+c:\Program Files\Prime95\PRIME95.EXE
+C:\Program Files\Intel\Wireless\Bin\RegSrvc.exe
+C:\Program Files\Analog Devices\SoundMAX\SMAgent.exe
+C:\Program Files\iPod\bin\iPodService.exe
+C:\Program Files\Intel\Wireless\Bin\Dot1XCfg.exe
+C:\Program Files\HPQ\SHARED\HPQWMI.exe
+C:\Program Files\wincmd\WINCMD32.EXE
+C:\Program Files\opera\Opera.exe
+C:\WINDOWS\system32\dllhost.exe
+C:\WINDOWS\system32\wuauclt.exe
+C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe
+C:\Program Files\Windows Defender\MSASCui.exe
+C:\Program Files\Windows Defender\MsMpEng.exe
+C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe
+c:\windows\notepad.exe
+C:\WINDOWS\regedit.exe
+
+R0 - HKCU\Software\Microsoft\Internet Explorer\Main,Start Page = about:blank
+R1 - HKLM\Software\Microsoft\Internet Explorer\Main,Default_Page_URL = http://ie.redirect.hp.com/svs/rdr?TYPE=3&tp=iehome&locale=EN_US&c=Q405&bd=pavilion&pf=laptop
+R1 - HKCU\Software\Microsoft\Internet Connection Wizard,ShellNext = https://register.hp.com/servlet/WebReg.servlets.ProdReg1Servlet?appID=java_wreg_wreg_genpg&modelID=EH474UA&product_full_name=Pavilion%20dv4000&PROD_SERIAL_ID=Pavilion%20dv4000%20(EH474UA#ABA)&PURCH_DT_MONTH=02&PURCH_DT_DAY=03&PURCH_DT_YEAR=2006&gwCountry=US&language=EN&prodOS=011
+O2 - BHO: Adobe PDF Reader Link Helper - {06849E9F-C8D7-4D59-B87D-784B7D6BE0B3} - C:\Program Files\Common Files\Adobe\Acrobat\ActiveX\AcroIEHelper.dll
+O2 - BHO: (no name) - {53707962-6F74-2D53-2644-206D7942484F} - C:\Program Files\SpybotSD\SDHelper.dll
+O2 - BHO: SSVHelper Class - {761497BB-D6F0-462C-B6EB-D4DAF1D92D43} - C:\Program Files\Java\jre1.5.0_10\bin\ssv.dll
+O2 - BHO: Google Toolbar Helper - {AA58ED58-01DD-4d91-8333-CF10577473F7} - c:\program files\google\googletoolbar1.dll
+O4 - HKLM\..\Run: [IgfxTray] C:\WINDOWS\system32\igfxtray.exe
+O4 - HKLM\..\Run: [HotKeysCmds] C:\WINDOWS\system32\hkcmd.exe
+O4 - HKLM\..\Run: [SoundMAXPnP] C:\Program Files\Analog Devices\SoundMAX\SMax4PNP.exe
+O4 - HKLM\..\Run: [SoundMAX] C:\Program Files\Analog Devices\SoundMAX\Smax4.exe /tray
+O4 - HKLM\..\Run: [AGRSMMSG] AGRSMMSG.exe
+O4 - HKLM\..\Run: [Apoint] C:\Program Files\Apoint2K\Apoint.exe
+O4 - HKLM\..\Run: [hpWirelessAssistant] C:\Program Files\hpq\HP Wireless Assistant\HP Wireless Assistant.exe
+O4 - HKLM\..\Run: [HP Software Update] C:\Program Files\Hp\HP Software Update\HPWuSchd2.exe
+O4 - HKLM\..\Run: [LSBWatcher] c:\hp\drivers\hplsbwatcher\lsburnwatcher.exe
+O4 - HKLM\..\Run: [eabconfg.cpl] C:\Program Files\HPQ\Quick Launch Buttons\EabServr.exe /Start
+O4 - HKLM\..\Run: [Cpqset] C:\Program Files\HPQ\Default Settings\cpqset.exe
+O4 - HKLM\..\Run: [Uptimer4] c:\program files\Uptimer4\uptimer4.exe
+O4 - HKLM\..\Run: [NeroFilterCheck] C:\WINDOWS\system32\NeroCheck.exe
+O4 - HKLM\..\Run: [IMJPMIG8.1] "C:\WINDOWS\IME\imjp8_1\IMJPMIG.EXE" /Spoil /RemAdvDef /Migration32
+O4 - HKLM\..\Run: [MSPY2002] C:\WINDOWS\system32\IME\PINTLGNT\ImScInst.exe /SYNC
+O4 - HKLM\..\Run: [PHIME2002ASync] C:\WINDOWS\system32\IME\TINTLGNT\TINTSETP.EXE /SYNC
+O4 - HKLM\..\Run: [PHIME2002A] C:\WINDOWS\system32\IME\TINTLGNT\TINTSETP.EXE /IMEName
+O4 - HKLM\..\Run: [IntelZeroConfig] "C:\Program Files\Intel\Wireless\bin\ZCfgSvc.exe"
+O4 - HKLM\..\Run: [IntelWireless] "C:\Program Files\Intel\Wireless\Bin\ifrmewrk.exe" /tf Intel PROSet/Wireless
+O4 - HKLM\..\Run: [SunJavaUpdateSched] "C:\Program Files\Java\jre1.5.0_10\bin\jusched.exe"
+O4 - HKLM\..\Run: [QuickTime Task] "C:\Program Files\QuickTime\qttask.exe" -atboottime
+O4 - HKLM\..\Run: [iTunesHelper] "C:\Program Files\iTunes\iTunesHelper.exe"
+O4 - HKLM\..\Run: [Windows Defender] "C:\Program Files\Windows Defender\MSASCui.exe" -hide
+O4 - HKUS\S-1-5-18\..\Run: [CTFMON.EXE] C:\WINDOWS\system32\CTFMON.EXE (User 'SYSTEM')
+O4 - HKUS\.DEFAULT\..\Run: [CTFMON.EXE] C:\WINDOWS\system32\CTFMON.EXE (User 'Default user')
+O4 - Global Startup: Adobe Reader Speed Launch.lnk = C:\Program Files\Adobe\Reader 8.0\Reader\reader_sl.exe
+O4 - Global Startup: Adobe Reader Synchronizer.lnk = C:\Program Files\Adobe\Reader 8.0\Reader\AdobeCollabSync.exe
+O8 - Extra context menu item: &Google Search - res://C:\Program Files\Google\GoogleToolbar1.dll/cmsearch.html
+O8 - Extra context menu item: Backward Links - res://C:\Program Files\Google\GoogleToolbar1.dll/cmbacklinks.html
+O8 - Extra context menu item: Cached Snapshot of Page - res://C:\Program Files\Google\GoogleToolbar1.dll/cmcache.html
+O8 - Extra context menu item: E&xport to Microsoft Excel - res://C:\PROGRA~1\MICROS~4\OFFICE11\EXCEL.EXE/3000
+O8 - Extra context menu item: Similar Pages - res://C:\Program Files\Google\GoogleToolbar1.dll/cmsimilar.html
+O8 - Extra context menu item: Translate into English - res://C:\Program Files\Google\GoogleToolbar1.dll/cmtrans.html
+O9 - Extra button: (no name) - {08B0E5C0-4FCB-11CF-AAA5-00401C608501} - C:\Program Files\Java\jre1.5.0_10\bin\ssv.dll
+O9 - Extra 'Tools' menuitem: Sun Java Console - {08B0E5C0-4FCB-11CF-AAA5-00401C608501} - C:\Program Files\Java\jre1.5.0_10\bin\ssv.dll
+O9 - Extra button: Research - {92780B25-18CC-41C8-B9BE-3C9C571A8263} - C:\PROGRA~1\MICROS~4\OFFICE11\REFIEBAR.DLL
+O9 - Extra button: Messenger - {FB5F1910-F110-11d2-BB9E-00C04F795683} - C:\Program Files\Messenger\msmsgs.exe
+O9 - Extra 'Tools' menuitem: Windows Messenger - {FB5F1910-F110-11d2-BB9E-00C04F795683} - C:\Program Files\Messenger\msmsgs.exe
+O14 - IERESET.INF: START_PAGE_URL=http://ie.redirect.hp.com/svs/rdr?TYPE=3&tp=iehome&locale=EN_US&c=Q405&bd=pavilion&pf=laptop
+O15 - Trusted Zone: *.gameparty.net
+O15 - Trusted Zone: *.sshu.nl
+O16 - DPF: {17492023-C23A-453E-A040-C7C580BBF700} (Windows Genuine Advantage Validation Tool) - http://go.microsoft.com/fwlink/?linkid=39204
+O16 - DPF: {6E32070A-766D-4EE6-879C-DC1FA91D2FC3} (MUWebControl Class) - http://update.microsoft.com/microsoftupdate/v6/V5Controls/en/x86/client/muweb_site.cab?1141408866625
+O16 - DPF: {7B297BFD-85E4-4092-B2AF-16A91B2EA103} (WScanCtl Class) - http://www3.ca.com/securityadvisor/virusinfo/webscan.cab
+O16 - DPF: {A18962F6-E6ED-40B1-97C9-1FB36F38BFA8} (Aurigma Image Uploader 3.5 Control) - http://cache.hyves.nl/statics/Aurigma/ImageUploader.cab
+O22 - SharedTaskScheduler: Browseui preloader - {438755C2-A8BA-11D1-B96B-00A0C90312E1} - C:\WINDOWS\system32\browseui.dll
+O22 - SharedTaskScheduler: Component Categories cache daemon - {8C7461EF-2B13-11d2-BE35-3078302C2030} - C:\WINDOWS\system32\browseui.dll
+O23 - Service: Cisco Systems, Inc. VPN Service (CVPND) - Cisco Systems, Inc. - C:\Program Files\Cisco Systems\VPN Client\cvpnd.exe
+O23 - Service: Intel(R) PROSet/Wireless Event Log (EvtEng) - Intel Corporation - C:\Program Files\Intel\Wireless\Bin\EvtEng.exe
+O23 - Service: FileZilla Server FTP server (FileZilla Server) - Unknown owner - C:\Program Files\FileZilla Server\FileZilla Server.exe
+O23 - Service: HP WMI Interface (hpqwmi) - Hewlett-Packard Development Company, L.P. - C:\Program Files\HPQ\SHARED\HPQWMI.exe
+O23 - Service: InstallDriver Table Manager (IDriverT) - Macrovision Corporation - C:\Program Files\Common Files\InstallShield\Driver\11\Intel 32\IDriverT.exe
+O23 - Service: iPod Service - Apple Computer, Inc. - C:\Program Files\iPod\bin\iPodService.exe
+O23 - Service: LightScribeService Direct Disc Labeling Service (LightScribeService) - Hewlett-Packard Company - C:\Program Files\Common Files\LightScribe\LSSrvc.exe
+O23 - Service: Kerio Personal Firewall (PersFw) - Kerio Technologies - C:\Program Files\Kerio\Personal Firewall\persfw.exe
+O23 - Service: Prime95 Service - Unknown owner - c:\Program Files\Prime95\PRIME95.EXE
+O23 - Service: Intel(R) PROSet/Wireless Registry Service (RegSrvc) - Intel Corporation - C:\Program Files\Intel\Wireless\Bin\RegSrvc.exe
+O23 - Service: Intel(R) PROSet/Wireless Service (S24EventMonitor) - Intel Corporation  - C:\Program Files\Intel\Wireless\Bin\S24EvMon.exe
+O23 - Service: SoundMAX Agent Service (SoundMAX Agent Service (default)) - Analog Devices, Inc. - C:\Program Files\Analog Devices\SoundMAX\SMAgent.exe
+
+--
+End of file - 9531 bytes

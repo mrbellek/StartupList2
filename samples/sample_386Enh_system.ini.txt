@@ -1,0 +1,28 @@
+[16:13] <%Bobbi_Work> system.ini!
+[16:13] <%Bobbi_Work> [386Enh]
+[16:13] <%Bobbi_Work> ebios=*ebios
+[16:13] <%Bobbi_Work> mouse=*vmouse, msmouse.vxd
+[16:13] <%Bobbi_Work> device=*dynapage
+[16:13] <%Bobbi_Work> device=*vcd
+[16:13] <%Bobbi_Work> device=*vpd
+[16:13] <%Bobbi_Work> device=*int13
+[16:13] <%Bobbi_Work> woafont=app850.fon
+[16:13] <%Bobbi_Work> keyboard=*vkd
+[16:13] <%Bobbi_Work> display=*vdd,*vflatd
+[16:13] <%Bobbi_Work> device=*enable
+[16:13] <%Bobbi_Work> from a w98 at work
+
+
+[16:12] <therock247uk> [386Enh]
+[16:12] <therock247uk> device=*COMBUFF
+[16:12] <therock247uk> device=TURBOVCD.VXD
+[16:12] <therock247uk> ebios=*ebios
+[16:12] <therock247uk> woafont=app850.fon
+[16:12] <therock247uk> mouse=*vmouse, msmouse.vxd
+[16:12] <therock247uk> device=*dynapage
+[16:12] <therock247uk> device=*vpd
+[16:12] <therock247uk> device=*int13
+[16:12] <therock247uk> keyboard=*vkd
+[16:12] <therock247uk> display=*vdd,*vflatd
+[16:12] <therock247uk> ConservativeSwapFileUsage=0
+[16:12] <therock247uk> device=*enable

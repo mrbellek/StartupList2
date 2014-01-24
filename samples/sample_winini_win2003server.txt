@@ -1,0 +1,24 @@
+; for 16-bit app support
+[fonts]
+[extensions]
+[mci extensions]
+[files]
+[Mail]
+MAPI=1
+[MCI Extensions.BAK]
+asf=MPEGVideo
+asx=MPEGVideo
+ivf=MPEGVideo
+m3u=MPEGVideo
+mp2v=MPEGVideo
+mp3=MPEGVideo
+mpv2=MPEGVideo
+wax=MPEGVideo
+wm=MPEGVideo
+wma=MPEGVideo
+wmv=MPEGVideo
+wvx=MPEGVideo
+wmx=MPEGVideo
+wpl=MPEGVideo
+[SciCalc]
+layout=0
